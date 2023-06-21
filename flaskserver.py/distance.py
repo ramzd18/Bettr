@@ -2,6 +2,7 @@ from geopy.geocoders import ArcGIS
 from geopy import distance
 def distanceBetween(home,away):
     geolocator = ArcGIS(scheme="https")
+    geol= 2
     home_lat= geolocator.geocode(home).longitude
     home_lang=geolocator.geocode(home).latitude
     away_lat= geolocator.geocode(away).longitude
