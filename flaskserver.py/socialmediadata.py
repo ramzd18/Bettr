@@ -2,10 +2,9 @@ import tweepy
 import nltk
 import re
 import string
+import pandas as pd
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from langdetect import detect
 from nltk.stem import SnowballStemmer
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
 #yfrom sklearn.feature_extraction.text import CountVectorizer
 def socialmediaData(fighter1):
    
